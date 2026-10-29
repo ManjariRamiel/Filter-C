@@ -26,7 +26,7 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
 void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     for(int i = 0; i < height; i++){
-        for(int j = 0; j < height; j++){
+        for(int j = 0; j < width / 2; j++){
             // safe image[i][j] for a time in value RGBTRIPLE
           RGBTRIPLE temp = image[i][j];
           // to set a pixel image[i][width -1 -j] into image[i][j]
