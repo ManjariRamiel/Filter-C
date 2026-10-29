@@ -25,6 +25,16 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
 // Reflect image horizontally
 void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
+    for(int i = 0; i < height; i++){
+        for(int j = 0; j < height; j++){
+            // safe image[i][j] for a time in value RGBTRIPLE
+          RGBTRIPLE temp = image[i][j];
+          // to set a pixel image[i][width -1 -j] into image[i][j]
+          image[i][j] = image[i][width - 1 - j];
+          // to set a safed pixel into image[i][width -1 -j]
+          image[i][width - 1 - j] = temp;
+        }
+    }
     return;
 }
 
