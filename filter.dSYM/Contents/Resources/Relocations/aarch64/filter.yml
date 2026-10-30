@@ -5,9 +5,9 @@ relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000460, symSize: 0x4C0 }
   - { offset: 0x3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000460, symSize: 0x4C0 }
   - { offset: 0x518, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100000920, symSize: 0x184 }
-  - { offset: 0x525, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100000920, symSize: 0x184 }
-  - { offset: 0x5B9, size: 0x8, addend: 0x0, symName: _cap, symObjAddr: 0x184, symBinAddr: 0x100000AA4, symSize: 0x3C }
-  - { offset: 0x5E1, size: 0x8, addend: 0x0, symName: _sepia, symObjAddr: 0x1C0, symBinAddr: 0x100000AE0, symSize: 0x314 }
-  - { offset: 0x6BB, size: 0x8, addend: 0x0, symName: _reflect, symObjAddr: 0x4D4, symBinAddr: 0x100000DF4, symSize: 0x158 }
-  - { offset: 0x74F, size: 0x8, addend: 0x0, symName: _blur, symObjAddr: 0x62C, symBinAddr: 0x100000F4C, symSize: 0x18 }
+  - { offset: 0x52C, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100000920, symSize: 0x184 }
+  - { offset: 0x5C0, size: 0x8, addend: 0x0, symName: _cap, symObjAddr: 0x184, symBinAddr: 0x100000AA4, symSize: 0x3C }
+  - { offset: 0x5E8, size: 0x8, addend: 0x0, symName: _sepia, symObjAddr: 0x1C0, symBinAddr: 0x100000AE0, symSize: 0x314 }
+  - { offset: 0x6C2, size: 0x8, addend: 0x0, symName: _reflect, symObjAddr: 0x4D4, symBinAddr: 0x100000DF4, symSize: 0x158 }
+  - { offset: 0x756, size: 0x8, addend: 0x0, symName: _blur, symObjAddr: 0x62C, symBinAddr: 0x100000F4C, symSize: 0x418 }
 ...
